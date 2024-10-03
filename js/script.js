@@ -115,3 +115,11 @@ function addPagination(list) {
       }
    });
 }
+
+
+
+// Call the showPage function to display the first page
+showPage(data, 1);
+
+// Call the addPagination function to create the pagination buttons
+addPagination(data);
